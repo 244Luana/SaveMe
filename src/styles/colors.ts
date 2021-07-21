@@ -3,5 +3,6 @@ export default {
     white: '#FFFFFF',
     purple: '#EFCDFF',
     cyan: '#BBE5EE',
-    almwhite: '#EFEFF1'
+    almwhite: '#EFEFF1',
+    violet: '#C093D4'
 }

@@ -1,7 +1,6 @@
 import styled from 'styled-components/native';
 import colors from './colors';
 
-
 export const Container = styled.View`
     flex: 1;
     background-color: ${colors.cyan};
@@ -21,6 +20,7 @@ export const FormRow = styled.View`
 export const TextInput = styled.TextInput`
     border-radius: 10;
     border-style: solid;
+    border-width: 1px;
     border-color: darkgray;
     background-color: ${colors.almwhite};
     font: 40;
