@@ -8,15 +8,6 @@ export const Container = styled.View`
     align-items: center;
     justify-content: center;
 `
-export const Sos = styled.Image`
-    align-self: flex-start;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 50px;
-    height: 50px;
-`
 export const Ballon = styled.Text`
     align-self: flex-end;
     width: 250px;
@@ -34,9 +25,14 @@ export const Text = styled.Text`
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
-    padding: 20px;
+    padding-top: 15px;
+    padding: 15px;
 `
+export const Space = styled.Text`
+    padding-top: 1px;
+    padding: 1px;
+`
+
 export const Ballon2 = styled.Text`
     align-self: flex-start;
     width: 250px;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/core';
-import { Ballon, Container, Text, Sos, Ballon2 } from '../styles/Avisos';
-import {Button, ButtonText} from '../components'
+import { Ballon, Container, Text, Space, Ballon2 } from '../styles/Avisos';
+import {Button, SosButton} from '../components'
 
 export default function Avisos() {
     const navigation = useNavigation();
@@ -10,11 +10,7 @@ export default function Avisos() {
     }   
     return (
         <Container>
-            <Sos 
-                source={
-                    require("../../assets/img/sos.png")
-                }
-            />
+            <SosButton title="SOS" onPress={handleSos} />
 
             <Ballon>
                 Clique aqui em casos de emergência para enviar um alerta para seus amigos
@@ -28,11 +24,12 @@ export default function Avisos() {
                 ATENÇÃO!! Esse aplicativo requer autorização para o uso de algumas funções do seu celular.
             </Ballon>
 
+            <Space />
+
             <Ballon2>
                 É indicado colocar o SaveMe como aplicativo de acesso direto, na sua tela de bloqueio.
             </Ballon2>
 
-            <Button title="SOS" onPress={handleSos} />
         </Container>
     );
 }
