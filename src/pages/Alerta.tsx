@@ -1,13 +1,17 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/core';
 import { Container, Text, User, Space, Atention, Ballon } from '../styles/Alerta';
-import {Button, SosButton} from '../components'
+import { AlertButton, Button, SosButton} from '../components'
 
 export default function Alerta() {
     const navigation = useNavigation();
     function handleAmigos() {
         navigation.navigate("Amigos");
     }   
+    function handleLocation() {
+        navigation.navigate("Location")
+    }
+
     return (
         <Container>
             
@@ -17,8 +21,6 @@ export default function Alerta() {
                 O SEU ALERTA FOI ATIVADO
             </Text>
 
-            <Space />
-
             <User 
                 source={
                     require("../../assets/img/User.png")
@@ -27,8 +29,12 @@ export default function Alerta() {
 
             <Text> Sua localização foi enviada para seus amigos! </Text>
 
+            <AlertButton title="Seu Local" onPress={handleLocation} />
+
+            <Space />
+            
             <Ballon>
-                Para maior auxilio, contate as autoridades competentes!
+                Para maior auxílio, contate as autoridades competentes!
             </Ballon>
 
             <Text> Clique aqui para acessar sua lista de amigos: </Text>

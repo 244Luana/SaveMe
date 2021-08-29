@@ -22,7 +22,7 @@ export const Ballon = styled.Text`
 `
 export const Text = styled.Text`
     align-items: center;
-    font-size: 26px;
+    font-size: 24px;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;

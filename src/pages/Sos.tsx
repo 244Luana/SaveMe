@@ -13,6 +13,8 @@ export default function Sos() {
     function handleAvisos() {
         navigation.navigate("Avisos");
     }
+    
+
     return (
         <Container>
             <Ballon>
@@ -21,7 +23,7 @@ export default function Sos() {
             </Ballon>
 
             <AlertButton title="ATIVAR MEU ALERTA" onPress={handleAlerta} />
-
+            
             <Button title="Voltar" onPress={handleAvisos} />
         </Container>
     );

@@ -10,7 +10,7 @@ export const Container = styled.View`
 `
 export const Atention = styled.Text`
     align-items: center;
-    font-size: 32px;
+    font-size: 28px;
     text-decoration: underline;
     text-align: center;
     padding-left: 20px;
@@ -20,7 +20,7 @@ export const Atention = styled.Text`
 `
 export const Text = styled.Text`
     align-items: center;
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -29,8 +29,8 @@ export const Text = styled.Text`
 `
 export const User = styled.Image`
     align-self: center;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin-bottom: 10px;
 `
 export const Space = styled.Text`

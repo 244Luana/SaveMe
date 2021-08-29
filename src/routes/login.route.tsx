@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import {Login, Cadastro, Avisos, Sos, Amigos, Alerta, Conta } from '../pages';
+import {Login, Cadastro, Avisos, Sos, Amigos, Alerta, Conta, Location } from '../pages';
 
 const Stack = createStackNavigator()
 
@@ -14,6 +14,7 @@ export default function LoginRoute() {
             <Stack.Screen name="Amigos" component={Amigos} />
             <Stack.Screen name="Alerta" component={Alerta} />
             <Stack.Screen name="Conta" component={Conta} />
+            <Stack.Screen name="Location" component={Location} />
         </Stack.Navigator>
     )
 }

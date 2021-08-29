@@ -1,7 +1,6 @@
 import styled from 'styled-components/native';
 import colors from './colors';
 
-
 export const Container = styled.View`
     flex: 1;
     background-color: ${colors.cyan};
@@ -22,7 +21,7 @@ export const MinText = styled.Text`
     width: 250px;
     font-size: 18px;
     text-decoration: underline;
-    text-align: start;
+    /*text-align: start;*/
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
