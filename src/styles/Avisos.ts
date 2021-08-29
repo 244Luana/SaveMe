@@ -9,6 +9,7 @@ export const Container = styled.View`
     justify-content: center;
 `
 export const Ballon = styled.Text`
+    margin-right: 20px;
     align-self: flex-end;
     width: 250px;
     font-size: 18px;
@@ -34,6 +35,7 @@ export const Space = styled.Text`
 `
 
 export const Ballon2 = styled.Text`
+    margin-left: 20px;
     align-self: flex-start;
     width: 250px;
     font-size: 18px;

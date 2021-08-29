@@ -20,7 +20,7 @@ export const FormRow = styled.View`
 export const TextInput = styled.TextInput`
     border-radius: 10;
     border-style: solid;
-    border-width: 1px;
+    border-width: 10px;
     border-color: darkgray;
     background-color: ${colors.almwhite};
     font: 40;
