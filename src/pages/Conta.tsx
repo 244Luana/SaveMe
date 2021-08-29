@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/core';
-import { Ballon, Container, Text, Space, Ballon2, MinText } from '../styles/Amigos';
+import { Container, Text, User, Space, MinText } from '../styles/Conta';
 import {ButtonMenu, SosButton} from '../components'
 
 export default function Amigos() {
@@ -23,21 +23,28 @@ export default function Amigos() {
             <SosButton title="SOS" onPress={handleSos} />
 
             <Text>
-                Meus Amigos
+                Minha Conta
             </Text>
 
-            <Ballon>
-                Encontre seus amigos  próximos para ver suas localizações
-                e receber seus alarmes..
-            </Ballon>
+            <User 
+                source={
+                    require("../../assets/img/User.png")
+                }
+            />
+
+            <Text>
+                Ana Humberto Mendonça
+            </Text>
 
             <Space></Space>
 
-            <MinText>
-                Nós somos sua primeira amizade!
-                Podemos receber seus alarmes e ver sua localização
-                se você ativar o alarme de emergencia.
-            </MinText>
+            <MinText> Configurações de perfil </MinText>
+
+            <MinText> Privacidade e permissões </MinText>
+
+            <MinText> Configurações do alarme </MinText>
+
+            <MinText> Amigos que recebem o alerta </MinText>
 
             <ButtonMenu title="Avisos" onPress={handleAvisos}/>
 

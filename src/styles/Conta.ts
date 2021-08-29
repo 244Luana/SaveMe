@@ -8,17 +8,6 @@ export const Container = styled.View`
     align-items: center;
     justify-content: center;
 `
-export const Ballon = styled.Text`
-    align-self: flex-end;
-    width: 250px;
-    font-size: 18px;
-    text-align: center;
-    border-radius: 10px;
-    border-color: ${colors.black};
-    border-width: 1px;
-    padding: 15px;
-    background-color: ${colors.purple};
-`
 export const Text = styled.Text`
     align-items: center;
     font-size: 26px;
@@ -29,27 +18,23 @@ export const Text = styled.Text`
     padding: 15px;
 `
 export const MinText = styled.Text`
-    align-items: center;
+    align-self: flex-start;
+    width: 250px;
     font-size: 18px;
-    text-align: center;
+    text-decoration: underline;
+    text-align: start;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
     padding: 15px;
 `
+export const User = styled.Image`
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+`
 export const Space = styled.Text`
     padding-top: 1px;
     padding: 1px;
-`
-
-export const Ballon2 = styled.Text`
-    align-self: flex-start;
-    width: 250px;
-    font-size: 18px;
-    text-align: center;
-    border-radius: 10px;
-    border-color: ${colors.black};
-    border-width: 1px;
-    padding: 15px;
-    background-color: ${colors.purple};
 `

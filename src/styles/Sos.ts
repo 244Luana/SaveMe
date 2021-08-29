@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { ButtonText } from '../components';
 import colors from './colors';
 
 export const Container = styled.View`
