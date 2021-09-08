@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/core';
-import { Ballon, Container, Text, Space, Ballon2 } from '../styles/Avisos';
+import { Ballon, Container, Text, Space, Ballon2, Menu } from '../styles/Avisos';
 import { ButtonMenu, SosButton} from '../components'
 
 export default function Avisos() {
@@ -41,11 +41,15 @@ export default function Avisos() {
                 É indicado colocar o SaveMe como aplicativo de acesso direto, na sua tela de bloqueio.
             </Ballon2>
 
-            <ButtonMenu title="Avisos" onPress={handleAvisos} />
+            <Menu>
 
-            <ButtonMenu title="Amigos" onPress={handleAmigos} />
+                <ButtonMenu title="Avisos" onPress={handleAvisos} />
 
-            <ButtonMenu title="Conta" onPress={handleConta} />
+                <ButtonMenu title="Amigos" onPress={handleAmigos} />
+
+                <ButtonMenu title="Conta" onPress={handleConta} />
+
+            </Menu>
 
         </Container>
     );

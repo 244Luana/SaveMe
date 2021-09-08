@@ -22,7 +22,7 @@ export const Ballon = styled.Text`
 `
 export const Text = styled.Text`
     align-items: center;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -33,7 +33,13 @@ export const Space = styled.Text`
     padding-top: 1px;
     padding: 1px;
 `
-
+export const Menu = styled.View`
+    flex: 1;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 25px;
+`
 export const Ballon2 = styled.Text`
     margin-left: 20px;
     align-self: flex-start;

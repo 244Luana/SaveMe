@@ -5,13 +5,16 @@ import { Container, FormRow, Label, Logo } from '../styles/Login';
 import {Button, ButtonText} from '../components'
 
 export default function Login() {
+
     const navigation = useNavigation();
+
     function handleCadastro() {
         navigation.navigate("Cadastro");
     }
     function handleAvisos() {
         navigation.navigate("Avisos");
     }
+
     return (
         <Container>
             <Logo 
@@ -28,7 +31,7 @@ export default function Login() {
             </FormRow>
 
             <FormRow>
-                <Label>ESQUECI A SENHA</Label>
+                <Label> ESQUECI A SENHA </Label>
             </FormRow>
 
             <Button title="ENTRAR" onPress={handleAvisos} />

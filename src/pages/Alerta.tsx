@@ -1,10 +1,12 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/core';
 import { Container, Text, User, Space, Atention, Ballon } from '../styles/Alerta';
-import { AlertButton, Button, SosButton} from '../components'
+import { AlertButton, Button, SosButton } from '../components'
 
 export default function Alerta() {
+
     const navigation = useNavigation();
+    
     function handleAmigos() {
         navigation.navigate("Amigos");
     }   
@@ -32,7 +34,7 @@ export default function Alerta() {
             <AlertButton title="Seu Local" onPress={handleLocation} />
 
             <Space />
-            
+
             <Ballon>
                 Para maior auxílio, contate as autoridades competentes!
             </Ballon>

@@ -18,12 +18,9 @@ export const Text = styled.Text`
 `
 export const MinText = styled.Text`
     align-self: flex-start;
-    width: 250px;
+    width: 300px;
     font-size: 18px;
     text-decoration: underline;
-    /*text-align: start;*/
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 15px;
     padding: 15px;
 `
@@ -36,4 +33,11 @@ export const User = styled.Image`
 export const Space = styled.Text`
     padding-top: 1px;
     padding: 1px;
+`
+export const Menu = styled.View`
+    flex: 1;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 25px;
 `

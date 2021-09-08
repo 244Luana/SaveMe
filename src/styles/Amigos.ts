@@ -42,7 +42,13 @@ export const Space = styled.Text`
     padding-top: 1px;
     padding: 1px;
 `
-
+export const Menu = styled.View`
+    flex: 1;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 25px;
+`
 export const Ballon2 = styled.Text`
     align-self: flex-start;
     width: 250px;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/core';
-import { Ballon, Container, Text, Space, Ballon2, MinText } from '../styles/Amigos';
+import { Ballon, Container, Text, Space, Ballon2, MinText, Menu } from '../styles/Amigos';
 import {ButtonMenu, SosButton} from '../components'
 
 export default function Amigos() {
@@ -39,11 +39,15 @@ export default function Amigos() {
                 se você ativar o alarme de emergencia.
             </MinText>
 
-            <ButtonMenu title="Avisos" onPress={handleAvisos}/>
+            <Menu>
 
-            <ButtonMenu title="Amigos" onPress={handleAmigos}/>
+                <ButtonMenu title="Avisos" onPress={handleAvisos} />
 
-            <ButtonMenu title="Conta" onPress={handleConta} />
+                <ButtonMenu title="Amigos" onPress={handleAmigos} />
+
+                <ButtonMenu title="Conta" onPress={handleConta} />
+
+            </Menu>
 
         </Container>
     );
