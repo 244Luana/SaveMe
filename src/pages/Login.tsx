@@ -22,6 +22,7 @@ export default function Login() {
                     require("../../assets/img/SvLogo.png")
                 }
             />
+            
             <FormRow>
                 <TextInput placeholder="E-MAIL"></TextInput>
             </FormRow>

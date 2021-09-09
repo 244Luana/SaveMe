@@ -1,7 +1,6 @@
 import styled from 'styled-components/native';
 import colors from './colors';
 
-
 export const Container = styled.View`
     flex: 1;
     background-color: ${colors.cyan};
@@ -59,4 +58,16 @@ export const Ballon2 = styled.Text`
     border-width: 1px;
     padding: 15px;
     background-color: ${colors.purple};
+`
+export const Ret = styled.Image`
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 90px;
+`
+export const Pesq = styled.Image`
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 30px;
 `
