@@ -50,12 +50,13 @@ export const Menu = styled.View`
 `
 export const Ballon2 = styled.Text`
     align-self: flex-start;
-    width: 250px;
-    font-size: 18px;
+    width: 230px;
+    font-size: 16px;
     text-align: center;
     border-radius: 10px;
     border-color: ${colors.black};
     border-width: 1px;
+    padding-top: 15px;
     padding: 15px;
     background-color: ${colors.purple};
 `
@@ -70,4 +71,5 @@ export const Pesq = styled.Image`
     justify-content: center;
     width: 280px;
     height: 30px;
+    padding: 10px;
 `
