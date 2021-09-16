@@ -17,6 +17,7 @@ export const Ballon = styled.Text`
     border-color: ${colors.black};
     border-width: 1px;
     padding: 15px;
+    padding-top: 10px;
     background-color: ${colors.purple};
 `
 export const Text = styled.Text`

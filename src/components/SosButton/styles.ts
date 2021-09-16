@@ -21,5 +21,5 @@ export const ButtonStyleText = styled.Text`
     border-radius: 10px;
     border-width: 2px;
     /*arrumar margem inferior do botão*/
-    padding: 12px;
+    padding: 11.35px;
 `

@@ -11,4 +11,6 @@ export const ButtonStyleText = styled.Text`
     color: ${colors.black};
     font-size: 20px;
     padding: 10px;
+    text-decoration: underline;
+    font-weight: bold;
 `
