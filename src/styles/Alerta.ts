@@ -3,7 +3,7 @@ import colors from './colors';
 
 export const Container = styled.View`
     flex: 1;
-    background-color: ${colors.purplemd};
+    background-color: ${colors.purple};
     align-items: center;
     justify-content: center;
 `
@@ -13,11 +13,12 @@ export const Font = styled.Text`
 export const Atention = styled.Text`
     align-items: center;
     font-size: 28px;
+    font-weight: bold;
     text-decoration: underline;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 15px;
+    padding-top: 20px;
     padding: 15px;
 `
 export const Text = styled.Text`
@@ -45,7 +46,7 @@ export const Ballon = styled.Text`
     font-size: 22px;
     text-align: center;
     border-color: ${colors.blue};
-    border-width: 4px;
+    border-width: 2px;
     padding: 15px;
-    background-color: ${colors.purplemd};
+    background-color: ${colors.purple};
 `

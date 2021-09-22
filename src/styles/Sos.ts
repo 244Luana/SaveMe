@@ -18,14 +18,15 @@ export const Ballon = styled.Text`
     border-width: 1px;
     margin-top: 100px;
     padding-top: 15px;
-    padding: 15px;
+    padding: 20px;
     background-color: ${colors.violet};
 `
 export const Text = styled.Text`
     align-items: center;
+    text-align: center;
     font-size: 22px;
-    padding-top: 15px;
-    padding: 10px;
+    padding-top: 10px;
+    padding: 20px;
     color: ${colors.black};
 `
 export const Menu = styled.View`

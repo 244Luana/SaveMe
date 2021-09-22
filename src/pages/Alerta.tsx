@@ -31,7 +31,7 @@ export default function Alerta() {
 
             <Text> Sua localização foi enviada para seus amigos! </Text>
 
-            <AlertButton title="Seu Local" onPress={handleLocation} />
+            <AlertButton title="SEU LOCAL" onPress={handleLocation} />
 
             <Space />
 

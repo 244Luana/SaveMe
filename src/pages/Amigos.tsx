@@ -35,6 +35,8 @@ export default function Amigos() {
                 }
             />
 
+            <Space />
+
             <Ballon>
                 Encontre seus amigos  próximos para ver suas localizações
                 e receber seus alarmes..
