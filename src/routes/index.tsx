@@ -1,13 +1,15 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
 import LoginRoute from './rotas.routes';
-import { Avisos, Sos, Amigos, Alerta, Conta } from '../pages';
+import HomeStack from "./rotas.routes"
+import { useAuth } from "../hook/auth";
 
 export default function Routes() {
+    const {access_token} = useAuth()
+    useAuth()
     return (
         <NavigationContainer>
-            <LoginRoute />  
+            {access_token ? <HomeStack /> : <LoginRoute />}
         </NavigationContainer>
     );
 }
